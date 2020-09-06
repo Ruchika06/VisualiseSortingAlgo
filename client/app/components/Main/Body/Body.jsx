@@ -46,9 +46,9 @@ class Body extends Component {
               "rgba(219, 57, 57, 0.8)" : currentBubbleTwo.includes(index) ||
               currentQuickTwo.includes(index) || currentHeapThree.includes(index) ||
               currentMergeX.includes(index) ?
-                "rgba(78, 216, 96, 0.8)" : pivot === index ?
-                  "rgba(237, 234, 59, 0.8)" : currentSorted.includes(index) ?
-                    "rgba(169, 92, 232, 0.8)" : "rgba(66, 134, 244, 0.8)";
+                "rgba(8, 6, 96, 0.8)" : pivot === index ?
+                  "rgba(7, 24, 59, 0.8)" : currentSorted.includes(index) ?
+                    "rgba(169, 192, 232, 0.8)" : "rgba(244, 66, 164, 0.8)";
           return <div
             className="arrayElement"
             key={index}
